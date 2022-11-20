@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;500;600;800&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbarr{
+    display: grid;
+    grid-template-columns: 0.8fr 1.8fr 0.2fr;
+    column-gap: 30px;
+    background-color: rgb(85, 82, 82);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navlogo{
+    padding-left: 35%;
+    margin: 7% 6% 8%;
+    color: rgb(220, 231, 231);
+}
+.navlogo h2{
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+}
+
+.nav-items ul{
+    margin-top: 3.6%;
+}
+
+.nav-items ul li{
+    display: inline;
+}
+
+.nav-items ul li a{
+    margin: 7% 4%;
+    text-decoration: none;
+    color: rgb(216, 222, 228);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+img{
+    width: 100%;
+    margin-top: 60px;
+    z-index: -1;
+    position: relative;
+}
+
+.lessopacitycont{
+    background-color: white;
+    opacity: 0.6;
+    width: 545px;
+    margin: auto;
+    padding: 1% 0.8%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.lessopacitycont p{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 3% 22% 1%;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: 1% 12%;
+    margin: 2% 30%;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+    border: none;
+}
+
+.shippingtxt{
+    background-color: rgb(228, 223, 223);
+    color: black;
+}
+.shippingtxt p{
+    padding: 1%;
+    margin-left: 37%;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+}
+.main-content{
+    display: inline-block;
+    width: 35%;
+    margin: 6% 36.4%;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
