@@ -3,8 +3,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
+img{
+    width: 100%;
+}
 .navbarr{
     display: grid;
     grid-template-columns: 0.8fr 1.8fr 0.2fr;
@@ -89,7 +93,7 @@ button:hover{
 }
 .shippingtxt p{
     padding: 1%;
-    margin-left: 37%;
+    margin-left: 38%;
     letter-spacing: 4px;
     word-spacing: 5px;
     font-weight: lighter;
@@ -99,7 +103,66 @@ button:hover{
 .main-content{
     display: inline-block;
     width: 35%;
-    margin: 6% 36.4%;
+    margin: 6% 38.6% 2%;
     letter-spacing: 5px;
     word-spacing: 5px;
+}
+
+hr{
+    width: 7%;
+    height: 3px;
+    margin-left: 30%;
+    color: black;
+}
+.main-content p{
+    margin-left: 10%;
+    margin-top: 7.7%;
+}
+.maindivs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+
+.firstdiv {
+    width: 70%;
+    margin-left: 54%;
+}
+
+.seconddiv{
+    width: 69.9%;
+    margin-left: 27%;
+}
+.seconddiv img{
+    position: relative;
+    z-index: -1;
+}
+
+.thirddiv {
+    width: 70%;
+    margin-right: 40%;
+}
+.maindivs h4{
+    background-color: rgb(47, 47, 47);
+    color:rgb(220, 231, 231);
+    text-align: center;
+    padding: 6% 1%;
+    font-weight: 300;
+    font-size: medium;
+}
+.mainfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    background-color: rgb(47, 47, 47);
+    height: 240px;
+}
+.mainfooter p{
+    color: rgb(220, 231, 231);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 8%;
+    font-weight: 100;
+    font-size: 14px;
 }
